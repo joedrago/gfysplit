@@ -6,6 +6,8 @@ set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/opencv/build")
 set(OpenCV_STATIC ON)
 find_package(OpenCV REQUIRED)
 
+add_definitions("/MTd")
+
 set(SRCS
     src/main.cpp
 )
