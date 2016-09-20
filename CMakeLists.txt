@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.4)
 project(gfysplit)
 
 # Note: You must download OpenCV 2.4.13 and put it into /opencv
